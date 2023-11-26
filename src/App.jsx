@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import { Link, Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import styled from "styled-components";
 import Timer from "./components/Timer/Timer";
 import Navbar from "./components/Navbar/Navbar";
