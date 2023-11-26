@@ -118,7 +118,7 @@ const handleLongBreak = () => {
 };
 
 return (
-  <TymerContainer>
+  <TymerContainer id="timer">
     <Titles>Focus Timer</Titles>
 
     <TimerContainer>

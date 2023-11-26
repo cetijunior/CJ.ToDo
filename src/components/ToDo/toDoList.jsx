@@ -105,12 +105,13 @@ const TaskDate = styled.div`
 `;
 
 const EditingInput = styled.input`
-  border-color: hsla(342, 100%, 75%, 0.2);
+  border-color: #C3E0E5;
   height: 0.7rem;
 `;
 
 const Icon = styled.i`
-  color: #C3E0E5;
+  color: #5885AF;
+  margin-left:-3px;
 `;
 
 const TaskInput = styled.input`
