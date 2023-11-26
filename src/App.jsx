@@ -1,9 +1,10 @@
 import "./App.css";
-import { Routes, Route, Navigate } from 'react-router-dom'
-import styled from 'styled-components'
-import Timer from './components/Timer/Timer'
-import Navbar from './components/Navbar/Navbar'
-import Todolist from './components/ToDo/toDoList'
+import React from "react";
+import { Link, Routes, Route, Navigate } from "react-router-dom";
+import styled from "styled-components";
+import Timer from "./components/Timer/Timer";
+import Navbar from "./components/Navbar/Navbar";
+import Todolist from "./components/ToDo/toDoList";
 
 const Container = styled.div`
   width: 100%;

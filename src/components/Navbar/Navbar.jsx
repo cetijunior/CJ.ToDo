@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <div>
             <Burger open={open} setOpen={setopen} />
-            <Menu open={open} setOpen={setopen} />
+            <Menu open={open} />
         </div>
     )
 }
